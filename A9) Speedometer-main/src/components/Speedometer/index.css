@@ -1,0 +1,83 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+.speedometer-container {
+  background-color: #07080c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.main-heading {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.image-style {
+  width: 70%;
+}
+
+.sub-heading {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 20px;
+  color: #cbd5e1;
+}
+
+.accelerate-button {
+  background-color: #0b69ff;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.apply-brake-button {
+  background-color: transparent;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid #94a3b8;
+  color: #94a3b8;
+  font-weight: bold;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 50px;
+  }
+
+  .sub-heading {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 30px;
+  }
+}
