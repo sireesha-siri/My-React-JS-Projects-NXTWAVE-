@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+li {
+  list-style-type: none;
+}
+
+.title-date-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 25px;
+  color: #12022f;
+}
+
+.description,
+.date {
+  color: #9aa5b1;
+  font-size: 15px;
+}

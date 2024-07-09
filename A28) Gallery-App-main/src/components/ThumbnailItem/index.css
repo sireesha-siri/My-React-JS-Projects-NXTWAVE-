@@ -1,0 +1,18 @@
+/* Write your code here. */
+li {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.inactive-button {
+  opacity: 0.5;
+}
+
+.active-button {
+  opacity: 1;
+}

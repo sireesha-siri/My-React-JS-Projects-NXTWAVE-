@@ -1,0 +1,18 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+
+.destination-card {
+  margin: 10px;
+}
+
+.destination-image {
+  width: 300px;
+}
+
+.destination-place {
+  font-size: 100%;
+  color: #000000;
+  font-family: 'Open Sans';
+}

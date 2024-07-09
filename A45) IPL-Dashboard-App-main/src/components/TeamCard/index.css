@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.link-style {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  background-color: #ffffff33;
+  border: 1px #ffff solid;
+  padding: 30px;
+  width: 350px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin: 30px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 568px) {
+  li {
+    height: 50px;
+    width: 100px;
+    padding: 10px;
+  }
+}
+.icon-design {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+
+.ipl-batch {
+  font-size: 25px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 568px) {
+  .icon-design {
+    height: 30px;
+    width: 30px;
+  }
+
+  .ipl-batch {
+    font-size: 10px;
+  }
+}

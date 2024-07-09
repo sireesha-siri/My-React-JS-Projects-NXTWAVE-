@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.cash-withdrawal-container {
+  min-height: 135vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cash-withdrawal-card {
+  background-color: #150b3e;
+  max-width: 40vw;
+  border-radius: 20px;
+  padding: 10px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name-container {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  background-color: #c7d2fe;
+  border-radius: 45px;
+  color: #7c3aed;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  font-size: 30px;
+  color: #d4d2db;
+  margin-left: 20px;
+  font-weight: normal;
+}
+
+.balance-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
+.balance-heading {
+  color: #585076;
+  font-size: 30px;
+}
+
+.amount {
+  font-size: 50px;
+  color: #d4d2db;
+  font-size: 50px;
+}
+
+.currency-heading {
+  font-size: 15px;
+  color: #585076;
+}
+
+.withdrawal-container {
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
+.withdraw-heading {
+  font-size: 35px;
+  color: #d4d2db;
+  font-weight: 500;
+}
+
+.rupees-heading {
+  color: #585076;
+  font-size: 25px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+}
+
+@media screen and (min-width: 568px) {
+  .buttons-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .buttons-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

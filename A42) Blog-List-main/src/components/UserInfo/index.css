@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+.user-info-container {
+  text-align: center;
+  margin: 20px;
+  font-family: 'Roboto';
+}
+
+.profile-style {
+  width: 50%;
+}
+
+.name {
+  color: #12022f;
+  font-size: 40px;
+}
+
+.role {
+  color: #616e7c;
+  font-size: 20px;
+}

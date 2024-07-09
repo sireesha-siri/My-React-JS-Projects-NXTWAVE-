@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+ul {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+  color: white;
+}
+
+.list-container {
+  border: 5px #00e7ff solid;
+  border-radius: 10px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.column-heading {
+  background-color: #092e33;
+}
+
+.currencies-container {
+  display: flex;
+}
+
+h1 {
+  font-family: 'Roboto';
+  color: #00e7ff;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  margin: 30px;
+  font-weight: bold;
+}

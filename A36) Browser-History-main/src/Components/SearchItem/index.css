@@ -1,0 +1,45 @@
+li {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.list-design {
+  display: flex;
+}
+
+.time {
+  color: #475569;
+  font-weight: bold;
+}
+
+.domain-container {
+  display: flex;
+  margin-left: 50px;
+}
+
+.domain-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.title-style {
+  margin-left: 20px;
+}
+
+.domain-url-style {
+  margin-left: 20px;
+  color: #64748b;
+}
+
+.delete-button-container {
+  background-color: transparent;
+  border: none;
+  width: 6%;
+  margin-top: 10px;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.background-container {
+  background-color: #93c5fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  min-height: 100vh;
+}
+
+.main-container {
+  background-color: #f8fafc;
+  border-radius: 20px;
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  min-width: 40vw;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.heading {
+  font-size: 30px;
+  color: #323f4b;
+}
+
+.capital-select {
+  height: 29px;
+  width: 170px;
+  padding: 5px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+}
+
+.question {
+  margin-left: 15px;
+}
+
+.option {
+  color: #000000;
+  font-weight: bold;
+}
+
+.country-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.country {
+  color: #1e293b;
+  font-size: 30px;
+  font-weight: bold;
+}

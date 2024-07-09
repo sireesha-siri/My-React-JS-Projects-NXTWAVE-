@@ -1,0 +1,16 @@
+/* Write your CSS code here */
+.currencies-container {
+  display: flex;
+}
+
+p {
+  margin: 30px;
+  font-weight: bold;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-top: 20px;
+  margin-left: 30px;
+}

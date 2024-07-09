@@ -1,0 +1,19 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+}
+
+.button-style {
+  height: 45px;
+  width: 150px;
+  border: 1px solid #c4c4c4;
+  color: #c4c4c4;
+  background-color: #382f5a;
+  border-radius: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.button-container {
+  margin: 10px;
+}

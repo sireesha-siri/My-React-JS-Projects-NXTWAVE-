@@ -1,0 +1,32 @@
+/* Write your code here. */
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #1e293b;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #64748b;
+}
+
+.thumbnail-container {
+  display: flex;
+  padding: 0px;
+}
+
+@media screen and (min-width: 568px) {
+  .thumbnail-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

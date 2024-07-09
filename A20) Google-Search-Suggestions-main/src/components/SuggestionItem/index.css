@@ -1,0 +1,22 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.button-style {
+  height: 20px;
+  width: 20px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.arrow-design {
+  width: 30px;
+}

@@ -1,0 +1,64 @@
+/* Write your CSS here */
+
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 40px;
+  margin: 5px;
+  width: 100%;
+}
+
+@media screen and (max-width: 568px) {
+  .latest-match-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.first-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.competing-team-heading {
+  font-size: 30px;
+}
+
+.date {
+  font-size: 20px;
+}
+
+.description-style {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 568px) {
+  .description-style {
+    font-size: 12px;
+  }
+}
+
+.badge-design {
+  width: 25%;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.info-container {
+  margin: 10px;
+}

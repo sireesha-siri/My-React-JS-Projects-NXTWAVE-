@@ -1,0 +1,63 @@
+/* Write your CSS here */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  font-family: 'Roboto';
+}
+
+.heading {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 200px;
+  position: fixed;
+}
+
+.show-hide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mini-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 50vw;
+}
+
+.button-style {
+  height: 45px;
+  width: 150px;
+  border-radius: 10px;
+  color: #dd1264;
+  border: none;
+  margin-bottom: 50px;
+  position: fixed;
+}
+
+.name-container {
+  height: 100px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fddddb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}

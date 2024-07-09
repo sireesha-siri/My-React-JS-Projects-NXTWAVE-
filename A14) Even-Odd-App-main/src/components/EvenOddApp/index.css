@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.even-odd-background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.even-odd-status-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 60vh;
+  min-width: 50vw;
+  border-radius: 15px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  padding: 20px;
+}
+
+.count-heading {
+  font-size: 30px;
+  color: #0f172a;
+}
+
+.status-description {
+  font-size: 20px;
+  color: #334155;
+}
+
+.button-style {
+  height: 45px;
+  width: 100px;
+  border-radius: 10px;
+  color: #334155;
+  background-color: #ffffff;
+  border: none;
+  font-size: 10px;
+}
+
+.description {
+  font-size: 10px;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .count-heading {
+    font-size: 40px;
+  }
+  .status-description {
+    font-size: 30px;
+  }
+  .button-style {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 20px;
+  }
+}

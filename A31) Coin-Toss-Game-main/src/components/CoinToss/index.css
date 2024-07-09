@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 50px;
+  max-width: 40vw;
+  text-align: center;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #a35200;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 568px) {
+  .heading {
+    font-size: 20px;
+  }
+}
+
+.description {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 568px) {
+  font-size: 10px;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.toss-result-image {
+  width: 25%;
+}
+
+.toss-button {
+  height: 45px;
+  width: 120px;
+  padding: 3px;
+  border-radius: 10px;
+  border: none;
+  background-color: #f9d423;
+  color: #a35200;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.points-container {
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.destination-search-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 40px;
+  color: #252627;
+  font-family: 'Roboto';
+}
+
+.search-container {
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+input {
+  height: 35px;
+  width: 150px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #0f172a;
+  font-size: 100%;
+}
+
+.icon {
+  width: 15%;
+}
+
+.destination-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 576px) {
+  .destination-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .destination-container {
+    flex-direction: column;
+  }
+}
