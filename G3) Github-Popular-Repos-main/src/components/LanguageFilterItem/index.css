@@ -1,0 +1,23 @@
+/* Write your CSS here */
+li {
+  list-style-type: none;
+  margin: 15px;
+  color: #0f172a;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.language-style {
+  border: 1px #0284c7 solid;
+  color: #0284c7;
+  padding: 7px;
+  border-radius: 15px;
+  min-width: 50px;
+}

@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.github-popular-repos-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #0f172a;
+  font-family: 'Lobster';
+  font-size: 40px;
+}
+
+@media screen and (max-width: 568px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 50%;
+}
+
+.failure-message {
+  font-family: 'Lobster';
+  font-size: 40px;
+  color: #0f172a;
+}

@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.configuration-controller-background {
+  min-height: 30vh;
+  background-color: #475569;
+  padding: 30px;
+  font-family: 'Roboto';
+  padding-left: 100px;
+}
+
+.layout-heading {
+  color: #f1f5f9;
+  font-size: 50px;
+}
+
+.check-box-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+label {
+  color: #e2e8f0;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 10px;
+}
